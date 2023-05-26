@@ -10,6 +10,7 @@
 .project{
     margin-top: 4em;
     width: 60%;
+    height:min-content;
     margin-left:20%;
     margin-right:20%;
     display: flex;
@@ -33,6 +34,21 @@
 }
 
 
+.project div a{
+    text-decoration: none;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.project img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin: 0;
+    margin-top: 0.5em;
+    border-radius: 0;
+}
+
 
 @media only screen and (max-width: 600px){
     .project{
@@ -54,18 +70,4 @@
         margin-right: 10%;
     }
 
-}
-
-.project div a{
-    text-decoration: none;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-}
-
-.project img{
-    width: 100%;
-    height: auto;
-    margin: 0;
-    margin-top: 0.5em;
-    border-radius: 0;
 }

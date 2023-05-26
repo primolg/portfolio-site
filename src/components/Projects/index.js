@@ -1,5 +1,4 @@
 import "./projects.css";
-import { BiDownload } from 'react-icons/bi'
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from "react";
 import NSshow from "./NSshow.png"
@@ -66,6 +65,7 @@ function Projects() {
               <a href="https://github.com/primolg/portfolio-site">Github</a>
             </div>
           </div>
+          <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
       </div>
     </div>
   );
