@@ -19,9 +19,12 @@ function AboutMe() {
           <img src={primoPhone} alt="primo gill portrait" />
         </div>
           <p id="about-me-text">
-            I am a recent graduate from both Fullstack Academy’s web development program, and the City College of New York, where I completed a bachelor's degree in Jewish Studies, with a focus in graphic design. I’m a dual citizen who’s moved back and fourth between the Netherlands and the United States throughout my life, and am currently residing in New York City.
-            <br></br>
-                Next to web development I have a passion for graphic design and making music. 
+            <div>
+              I am a recent graduate from both Fullstack Academy’s web development program, and the City College of New York, where I completed a bachelor's degree in Religious Studies and graphic design. I am a dual citizen who’s moved back and fourth between the Netherlands and the United States throughout my life, and am currently residing in New York City.
+            </div>
+            <div>
+              Alongside web development and design I have a passion for music production and public transit.
+            </div>
           </p>
       </div>
     </div>
