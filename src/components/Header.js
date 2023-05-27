@@ -6,7 +6,7 @@ function Header() {
     <div id="header">
       <div>
             <div id="name">primo ledeboer gill</div>
-            <div>web developer</div>
+            <div id="titles">web developer & designer</div>
       </div>
       <img src={radio} />
     </div>

@@ -51,8 +51,8 @@
 
 @media only screen and (max-width: 1125px){
     img{
-        width: 90%;
-        max-width: 500px;
+        height: 50%;
+        width: auto;
         margin: 5vw 5% 2vh 5%;
     }
     #about-me{

@@ -59,11 +59,11 @@ body{
   #root{
     align-items: unset;
   }
-
+  
   #app{
     margin-top: 20px;
   }
-
+  
   #header{
     font-size:medium;
   }
@@ -75,11 +75,13 @@ body{
     width: 86vw;
     height: 87vh
   }
-  #header img{
-    height: 0;
-  }
 }
 
+@media only screen and (max-width: 1000px){
+  #header img{
+    display: none;
+  }
+}
 #cat-buttons{
   display: flex;
   flex-direction: column;
@@ -96,6 +98,7 @@ body{
   height: 25%;
   font-size: medium;
 }
+
 @media only screen and (max-width: 600px){
   #cat-buttons{
     width: 100%;
@@ -107,6 +110,10 @@ body{
     width: 100%;
     height: 100%;
     flex-direction: row;
+  }
+
+  #header #titles{
+  display: none;
   }
 }
 

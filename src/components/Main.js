@@ -1,16 +1,20 @@
 import { useState } from "react";
+import { useParams } from "react-router-dom";
 import AboutMe from "./AboutMe/index.js";
 import Contact from "./Contact/index.js";
 import Design from "./Design/index.js";
 import Projects from "./Projects/index.js";
 
 function Main() {
-
+    const {page} = useParams()
     const [currentCat, setCurrentCat] = useState(undefined);
     if (!currentCat){
-        setCurrentCat("about-me")
-    }
-    
+        if (page === "projects" || page === "design" || page ===  "contact"){
+            setCurrentCat(page)
+        } else {
+            setCurrentCat("about-me")
+        }
+    } 
   return(
     <div className="main">
         <div id="cat-buttons" >
