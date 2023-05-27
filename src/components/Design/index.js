@@ -19,15 +19,13 @@ function Design() {
       <div id="design">
         <>
           <h2>NS Meetup <a href={nsPage} target="_blank">view</a></h2>  
-          <h4>NS Meetup is a web application used to find trips and recommended meeting points for the given trip, to make it easy for people to find each other in/around train stations. I designed and developed the application while I was living in the Netherlands, so it’s made exclusively for Dutch rail transit.
-          </h4>
-          <h4 style={{textIndent:"2em"}}>The goal was to create a clean, and reliable design for the interface, so I decided to use a traditional Dutch colour palette of “Delfts Blauw”, sure to be recognised by locals or even tourists with a  sharp eye. 
-          <br></br><br></br>
-          All design work was done with Figma and Adobe Illustrator.
+          <h4>NS Meetup is a web application built to find trips and corresponding meeting point to make it easy for travelers to find each other in or around train stations. I designed and developed the application while I was living in the Netherlands, so it is made exclusively for Dutch rail transit.</h4>
+          <h4 style={{textIndent:"2em"}}>Since it is a public transit application, I wanted the interface to feel reliable, and calming, and therefor decided to use the traditional Dutch colour palette of “Delfts Blauw”, sure to be recognised by locals or even tourists with a sharp eye.<br></br><br></br>
+          All design work was done with Figma and Adobe Illustrator. 1/23
           </h4>
         </>
         <>
-          <h2>New Faces <a href={nfPage} target="_blank">view</a></h2>
+          <h2>New Faces Logo<a href={nfPage} target="_blank">view</a></h2>
           <h4>New Faces is a Miami based marketing consulting agency that specialises in brand development. They wanted a logo to use in their branding such as thumbnails, social media accounts, etc.
               <br></br>
               <br></br>All design work was done in Adobe Illustrator
@@ -35,11 +33,10 @@ function Design() {
         </>
         <>
           <h2>E-commerce Template <a href={ecomPage} target="_blank">view</a></h2>
-          <h4>Template/structure design for an easy to navigate e-commerce store, demonstration visible here. 
-          </h4>
-          <h4>I used IKEA as placeholder branding since they have strong universal branding, but I felt that IKEA’s web-store was difficult to navigate, and wanted to challenge myself to make a more intuitive, direct design, that I see suiting a wide range of products.  
+          <h4>Design for an e-commerce store, demonstration visible <a href="https://youtu.be/b3bE3aE_fnk" target="_blank">here</a></h4>
+          <h4>I used IKEA as placeholder branding since they have a strong universal identity, and wanted to challenge myself to make a version of their web store that has a more intuitive and direct design, that can suit a wide range of products. 
               <br></br>
-              <br></br>All design work was done in Adobe Illustrator
+              <br></br>All design work was done in Adobe Illustrator 5/23
           </h4>
         </>
         <br></br><br></br><br></br><br></br><br></br><br></br>
