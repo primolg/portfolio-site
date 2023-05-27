@@ -1,6 +1,7 @@
 import "./about-me.css";
 import { useState } from "react";
 import primoPhone from "./about-me-img.jpg";
+import pdf from './primo-gill-resume.pdf'
 
 function AboutMe() {
 
@@ -20,11 +21,15 @@ function AboutMe() {
         </div>
           <p id="about-me-text">
             <div>
-              I am a recent graduate from both Fullstack Academy’s web development program, and the City College of New York, where I completed a bachelor's degree in Religious Studies and graphic design. I am a dual citizen who’s moved back and fourth between the Netherlands and the United States throughout my life, and am currently residing in New York City.
+              I am a recent graduate from both Fullstack Academy’s Web Development program, and the City College of New York, where I completed a bachelor's degree in Religious Studies and Graphic Design. I've moved back and fourth between the Netherlands and the United States throughout my life, and am currently residing and looking for work in New York City.
             </div>
+            <br></br>
             <div>
-              Alongside web development and design I have a passion for music production and public transit.
+              Alongside Web Development and Design I have a passion for music production and public transit.
             </div>
+            <a id="download-resume" href={pdf} download="primo-gill-resume.pdf">
+              <h4>Download Resume</h4>
+            </a>
           </p>
       </div>
     </div>

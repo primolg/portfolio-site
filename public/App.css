@@ -4,13 +4,19 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body{
+  position: static;
   width: 100vw;
   height:100vh;
   background-color: #3f3636;
+}
+
+#root {
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #header{
@@ -52,8 +58,12 @@
 @media only screen and (max-width: 600px){
   #root{
     align-items: unset;
-    padding-top: 20px;
   }
+
+  #app{
+    margin-top: 20px;
+  }
+
   #header{
     font-size:medium;
   }
@@ -108,17 +118,20 @@
   background-color: #d8d5c8;
   color: #514326;
 }
+
 .projects-clrs{
   background-color: #b6b0a0;
+  color: #362a13;
+}
+
+.design-clrs{
+  background-color: #f3f1ea;
   color: #514326;
 }
+
 .contact-clrs{
   background-color: #9F524F;
   color: #DBD9D2;
-}
-.resume-clrs{
-  background-color: #A38B75;
-  color: #eae9e2;
 }
 
 #text-box{
@@ -139,15 +152,15 @@
   background-color: #b6b0a0;
   color: #514326;
 }
+#text-box.design-clrs{
+  background-color: #f3f1ea;
+  color: #514326;
+}
 #text-box.contact-clrs{
   background-color: #9F524F;
   color: #DBD9D2;
 }
-#text-box.resume-clrs{
-  background-color: #A38B75;
-  color: #eae9e2;
-}
-
+  
 #page-outer-div{
   position: relative;
   opacity: 0;

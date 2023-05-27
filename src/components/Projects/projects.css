@@ -8,11 +8,11 @@
     align-items: center;
 }
 .project{
-    margin-top: 4em;
-    width: 60%;
-    height:min-content;
+    margin-top: 8%;
     margin-left:20%;
     margin-right:20%;
+    width: 80%;
+    height:min-content;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -21,6 +21,11 @@
 .project div{
     margin-bottom: 0.5em;
     font-weight: 500;
+}
+
+.project div h2{
+    margin-right: 10%;
+    font-weight: 400;
 }
 
 .project-titles{
@@ -35,9 +40,8 @@
 
 
 .project div a{
-    text-decoration: none;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    color: inherit;
+    margin-right: 1em;
 }
 
 .project img{
@@ -55,10 +59,15 @@
         width: 80%;
         margin-left:10%;
         margin-right:10%;
+        margin-top: 15%;
     }
     .project-titles{
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .project-titles h4{
+        margin-top: 5px;
     }
 }
 
@@ -66,8 +75,4 @@
     .project div{
         display: flex;
     }
-    .project div h3{
-        margin-right: 10%;
-    }
-
 }
