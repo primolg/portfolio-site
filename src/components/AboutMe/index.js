@@ -27,7 +27,7 @@ function AboutMe() {
             <div>
               Alongside Web Development and Design I have a passion for music production and public transit.
             </div>
-            <a id="download-resume" href={pdf} download="primo-gill-resume.pdf">
+            <a id="download-resume" href={pdf} target="_blank">
               <h4>Download Resume</h4>
             </a>
           </p>
