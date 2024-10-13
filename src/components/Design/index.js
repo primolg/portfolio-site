@@ -25,18 +25,18 @@ function Design() {
           </h4>
         </>
         <>
-          <h2>New Faces Logo<a href={nfPage} target="_blank">view</a></h2>
-          <h4>New Faces is a Miami based marketing consulting agency that specialises in brand development. They wanted a logo to use in their branding such as thumbnails, social media accounts, etc.
-              <br></br>
-              <br></br>All design work was done in Adobe Illustrator
-          </h4>
-        </>
-        <>
           <h2>E-commerce Template <a href={ecomPage} target="_blank">view</a></h2>
           <h4>Design for an e-commerce store, demonstration visible <a href="https://youtu.be/b3bE3aE_fnk" target="_blank">here</a></h4>
           <h4>I used IKEA as placeholder branding since they have a strong universal identity, and wanted to challenge myself to make a version of their web store that has a more intuitive and direct design, that can suit a wide range of products. 
               <br></br>
               <br></br>All design work was done in Adobe Illustrator 5/23
+          </h4>
+        </>
+        <>
+          <h2>New Faces Logo<a href={nfPage} target="_blank">view</a></h2>
+          <h4>New Faces is a Miami based marketing consulting agency that specialises in brand development. They wanted a logo to use in their branding such as thumbnails, social media accounts, etc.
+              <br></br>
+              <br></br>All design work was done in Adobe Illustrator
           </h4>
         </>
         <br></br><br></br><br></br><br></br><br></br><br></br>

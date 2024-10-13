@@ -21,7 +21,7 @@ function AboutMe() {
         </div>
           <p id="about-me-text">
             <div>
-              I am a recent graduate from both Fullstack Academy’s Web Development program, and the City College of New York, where I completed a bachelor's degree in Religious Studies and Graphic Design. I've moved back and fourth between the Netherlands and the United States throughout my life, and am currently residing and looking for work in New York City.
+              Hi! My name is Primo, I am a Computer Science major at Hunter college, as well as a graduate from both Fullstack Academy’s Web Development program, and the City College of New York, where I completed a bachelor's degree in Religious Studies and Graphic Design. I've moved back and fourth between the Netherlands and the United States throughout my life, and am currently residing in New York City.
             </div>
             <br></br>
             <div>
